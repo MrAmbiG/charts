@@ -5,7 +5,7 @@ entries:
     appVersion: "1.6"
     created: "2025-09-30T19:49:03.468138042+05:30"
     description: A Helm chart for NSFW JS content detection service
-    digest: d9e52cf57ee81584983a9ce161e2f6bcf1b8331757bf28e5cac02d70d04d7f2c
+    digest: 7a040328037bb0401b2d1676f59abe097d3d3c35ef63e7cc2eed2d27fd389240
     home: https://github.com/infinitered/nsfwjs
     keywords:
     - nsfwjs
@@ -31,4 +31,4 @@ entries:
     urls:
     - https://mrambig.github.io/charts/shorty
     version: 0.1.0
-generated: "2025-09-30T19:49:03.467633309+05:30"
+generated: "2025-09-30T21:33:27.245877178+05:30"

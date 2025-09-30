@@ -4,6 +4,17 @@
 
 replicaCount: 1
 
+# Namespace configuration
+namespace:
+  # Name of the namespace (if not specified, uses the namespace from helm install command)
+  name: ""
+  # Whether to create the namespace if it doesn't exist
+  create: false
+  # Labels to add to the namespace
+  labels: {}
+  # Annotations to add to the namespace
+  annotations: {}
+
 image:
   repository: andresribeiroo/nsfwjs
   pullPolicy: IfNotPresent
