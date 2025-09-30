@@ -1,24 +1,34 @@
 apiVersion: v1
 entries:
+  nsfwjs:
+  - apiVersion: v2
+    appVersion: "1.6"
+    created: "2025-09-30T19:49:03.468138042+05:30"
+    description: A Helm chart for NSFW JS content detection service
+    digest: d9e52cf57ee81584983a9ce161e2f6bcf1b8331757bf28e5cac02d70d04d7f2c
+    home: https://github.com/infinitered/nsfwjs
+    keywords:
+    - nsfwjs
+    - content-detection
+    - machine-learning
+    maintainers:
+    - email: your-email@example.com
+      name: ambi
+    name: nsfwjs
+    sources:
+    - https://github.com/infinitered/nsfwjs
+    type: application
+    urls:
+    - https://mrambig.github.io/charts/nsfwjs-0.1.0.tgz
+    version: 0.1.0
   shorty:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-04-16T11:10:08.729944+02:00
+    created: "2019-04-16T11:10:08.729944+02:00"
     description: A Kubernetes native url shortener developed by django
     digest: 35a4e31bfacc496f1b1bce664652916bb8701cc9df77f1b90534f5234ff297a6
     name: shorty
     urls:
     - https://mrambig.github.io/charts/shorty
     version: 0.1.0
-
-  smee:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2019-04-16T11:10:08.729944+02:00
-    description: A Kubernetes helm chart for github's probot's smee.io
-    digest: 35a4e31bfacc496f1b1bce664652916bb8701cc9df77f1b90534f5234ff297a6
-    name: shorty
-    urls:
-    - https://mrambig.github.io/charts/smee
-    version: 0.1.0
-generated: "2021-03-29T23:06:26.903034826Z"
+generated: "2025-09-30T19:49:03.467633309+05:30"
